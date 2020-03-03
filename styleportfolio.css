@@ -1,0 +1,428 @@
+html, body {
+      margin: 0;
+      padding: 0;
+      width: 100%;
+    height: 100%;
+}
+
+body {
+        margin: 0;
+        padding: 0;
+      font-family: "Helvetica Neue",sans-serif;
+      font-weight: lighter;
+}
+
+.container-fluid{
+    width: 100%;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+      width: 100%;
+      height: 100vh;
+      background-size: cover;
+}
+
+.content {
+      width: 94%;
+      margin: 4em auto;
+      font-size: 20px;
+      line-height: 30px;
+      text-align: justify;
+}
+
+.logo {
+      line-height: 80px;
+      position: fixed;
+      float: left;
+      padding: 0 10px 0 20px;
+      margin: 3px 46px;
+      margin-left: 50px;
+      color: aquamarine;
+    border: 5px double aquamarine;
+      font-weight: bold;
+      font-size: 30px;
+      letter-spacing: 15px;
+     transition: all ease .5s;
+}
+
+
+nav {
+      position: fixed;
+      z-index: 1;
+      width: 100%;
+      line-height: 60px;
+    transition: all ease .5s;
+}
+
+nav ul {
+      line-height: 60px;
+      list-style: none;
+      background: rgba(0, 0, 0, 0);
+      overflow: hidden;
+      color: #fff;
+      padding: 0;
+      text-align: right;
+      margin: 0;
+      padding-right: 40px;
+       transition: all ease .5s;
+}
+
+nav.black ul {
+      background: #000;
+    color: aqua;
+    margin: 20px;
+    border: 2px solid aquamarine;
+    transition: all ease .5s;
+    
+}
+
+nav ul li {
+      display: inline-block;
+      padding: 16px 50px;;
+}
+
+nav ul li a {
+      text-decoration: none;
+      color: #fff;
+      margin: 0;
+      padding: 0;
+      font-size: 25px;
+}
+
+nav ul li a:hover
+{
+    color: aquamarine;
+    box-sizing: border-box;
+    text-decoration: none;
+    border-left-color: black;
+    border-right-color: black;
+    border-radius: 15px;
+    border: 3px double aquamarine;
+    padding: 20px;
+}
+
+.heading1
+{
+
+    width: 35em;
+    height: 8em;
+    margin: 0;
+    padding-top: 1.5em;
+    position: relative;
+    left: 21.875;
+    border: .5em double aquamarine;
+    font-size: 2vw;
+    color: yellow;
+
+    
+}
+
+.heading1 h1{
+    font-size: 4vw;
+    letter-spacing: 2vw;
+}
+
+.heading1 h3{
+    font-size: 1vw;
+    letter-spacing: .2vw;
+    
+}
+
+.menu-icon {
+      line-height: 60px;
+      width: 100%;
+      background: #000;
+      text-align: right;
+      box-sizing: border-box;
+      padding: 15px 24px;
+      cursor: pointer;
+      color: #fff;
+      display: none;
+}
+
+@media(max-width: 1024px) {
+
+      .logo {
+            position: fixed;
+            top: 0;
+            margin-top: 16px;
+      }
+
+      nav ul {
+            max-height: 0px;
+            background: #000;
+      }
+
+      nav.black ul {
+            background: #000;
+      }
+
+      .showing {
+            max-height: 34em;
+      }
+
+      nav ul li {
+            box-sizing: border-box;
+            width: 100%;
+            padding: 24px;
+            text-align: center;
+      }
+
+      .menu-icon {
+            display: block;
+      }
+
+}
+.home{
+    width: 100%;
+    height: 100vh;
+    margin: 0 auto;
+    background: url(img/pic6.jpg) no-repeat 50% 50%;
+}
+
+.home div{
+    position: relativel;
+    top: 400px;
+}
+
+.about{
+    width: 100%;
+    height: 100vh;
+    background: url(img/bg1.jpg) no-repeat 50% 50%;
+}
+
+.about div{
+    position: relativel;
+    top: 400px;
+}
+
+.services{
+    width: 100%;
+    height: 100vh;
+    background: url(img/hero.jpg) no-repeat 50% 50%;
+}
+
+.services div{
+    position: relativel;
+    top: 400px;
+}
+
+
+
+.portfolio{
+    width: 100%;
+    height: 100vh;
+    background: url(img/11.jpg) no-repeat 50% 50%;
+}
+
+.portfolio div{
+    position: relativel;
+    top: 400px;
+}
+
+.contact{
+    width: 100%;
+    height: 100vh;
+    background: url(img/pic7.jpg) no-repeat 50% 50%;
+}
+
+.contact div{
+    position: relativel;
+    top: 400px;
+}
+
+.red{
+    background: red;
+    height: 900px;
+}
+
+.blue{
+    background: blue;
+}
+
+.green{
+    background: green;
+}
+
+.but1about{
+    position: relative;
+    width: 45vw;
+    height: 4vw;
+    top: 24vw;
+    font-size: 2vw;
+    letter-spacing: 1vw;
+    text-align: center;
+    text-transform: uppercase;
+    background: rgba(0, 0, 0, 0);
+    border-color: aquamarine;
+    color: yellow;
+    transition: all .7s ease;
+}
+
+.but1about:hover{
+    height: 6vw;
+    background: rgba(0, 0, 0, 0);
+    letter-spacing: 1.5vw;
+    font-size: 2.5vw;
+    border: .3vw solid aquamarine;
+    color: yellow;
+    scroll-behavior: smooth;
+    transition: all .7s ease;
+}
+
+
+.portrow{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.post{
+    margin: 0;
+    padding: 0;
+    position: relative;
+    cursor: pointer;
+}
+
+.portpic{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.post:hover .post-s{
+    width: 100%;
+}
+
+.post img{
+    width: 100%;
+    height: 20vw;
+    display: block;
+    width: 
+    height: 300px;
+}
+
+.post-s{
+    width: 0px;
+    height: 20vw;
+    background: rgba(103, 58, 183, 0.71);
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: .8vw solid #3366cc;
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+    overflow: hidden;
+    transition: all .7s ease;
+}
+
+.post-s a:hover{
+    text-decoration: none;
+}
+
+.post-s h1{
+    color: aquamarine;
+    font-size: 50px;
+    border: .2vw solid white;
+    padding: 10px 30px;
+}
+
+.footerhome{
+    background: linear-gradient(to bottom, #336699 0%, #0099cc 100%);
+}
+
+.siarrow{
+    margin: 0;
+    padding: 0;
+    height: 8em;
+    width: 100%;
+}
+
+.siar{
+    padding-left: 7em;
+    margin-top: 3em;
+    padding-top: 1em;
+    
+}
+
+.siar a{
+    font-size: 4vw;
+    letter-spacing: 1em;
+    color: aquamarine;
+}
+
+.siar a:hover{
+    text-decoration: none;
+    color: aqua;
+}
+
+.rights{
+    padding-right: 2em;
+    padding-top: 1em;
+    margin: 0;
+    
+}
+
+.siarrights{
+    margin: 0;
+    padding-right: 3em;
+    padding-top: 1em;
+    text-align: right;
+    font-size: 1.5vw;
+    letter-spacing: .3em;
+    color: aquamarine;
+}
+
+.siarrights h3 a{
+    color: aquamarine;
+}
+
+.siarrights h3 a:hover{
+    color: aqua;
+    text-decoration: none;
+}
+
+
+.footernav{
+    margin: 0;
+    padding-top: 1em;
+    padding-right: 7em;
+    padding-left: 7em;
+}
+
+.footerlist{
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.footerlist ul{
+    text-decoration: none;
+    list-style: none;
+    
+}
+
+.footerlist ul li {
+    display: inline-block;
+    font-size: 1.1vw;
+    border-right: .1em solid aquamarine;
+    padding: .1em 1.2em .1em 1.2em;
+}
+
+.footerlist ul li a{
+    color: aquamarine;
+}
+
+.footerlist ul li a:hover{
+    color: aqua;
+    text-decoration: none;
+}
+
